@@ -10,11 +10,11 @@ export default function Portfolio() {
       <section >
         <div className="my-12 py-20">
         <p className='uppercase text-4xl font-bold text-gray-800 mb-14 text-center'>portfolio component</p>
-        <div >
-        <div className='w-20 h-1 bg-gray-800 absolute left-1/4 -translate-x-0  -translate-y-2 sm:left-2/4 sm:translate-x-5 '></div>
-        <i class="fa-solid fa-star text-gray-800 absolute left-2/4  -translate-x-5  -translate-y-4 sm:left-2/4 sm:-translate-x-3"></i>
-        <div className='w-20 h-1 bg-gray-800 absolute left-1/4 translate-x-32  -translate-y-2 sm:left-2/4 sm:-translate-x-28'></div>
-        </div >
+        <div className='relative'>
+        <div className='w-20 h-1 bg-gray-800 absolute left-1/4 -translate-x-0  -translate-y-8 sm:left-2/4 sm:translate-x-5 '></div>
+        <i class="fa-solid fa-star text-gray-800 absolute left-2/4  -translate-y-10 sm:left-2/4 sm:-translate-x-3"></i>
+        <div className='w-20 h-1 bg-gray-800 absolute left-1/4 translate-x-32  -translate-y-8 sm:left-2/4 sm:-translate-x-28'></div>
+        </div>
         <div>
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 mx-20 pt-10'>
           <div className='  relative'>

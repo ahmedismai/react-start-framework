@@ -7,11 +7,11 @@ export default function Contact() {
       <section className=' mt-12 py-20  flex justify-center items-center'>
         <div className="container">
         <p className='uppercase text-4xl font-bold text-gray-800 mb-14 text-center'>about component</p>
-        <div >
-        <div className='w-20 h-1 bg-gray-800 absolute left-1/4 -translate-x-0  -translate-y-2 sm:left-2/4 sm:translate-x-5 '></div>
-        <i class="fa-solid fa-star text-gray-800  absolute left-2/4  -translate-x-5  -translate-y-4 sm:left-2/4 sm:-translate-x-3"></i>
-        <div className='w-20 h-1 bg-gray-800 absolute left-1/4 translate-x-32  -translate-y-2 sm:left-2/4 sm:-translate-x-28'></div>
-        </div >
+        <div className='relative'>
+        <div className='w-20 h-1 bg-gray-800 absolute left-1/4 -translate-x-0  -translate-y-8 sm:left-2/4 sm:translate-x-5 '></div>
+        <i class="fa-solid fa-star text-gray-800 absolute left-2/4  -translate-y-10 sm:left-2/4 sm:-translate-x-3"></i>
+        <div className='w-20 h-1 bg-gray-800 absolute left-1/4 translate-x-32  -translate-y-8 sm:left-2/4 sm:-translate-x-28'></div>
+        </div>
 <form class="max-w-2xl mx-auto pt-14">
   <div class="relative z-0 w-full mb-10 group">
       <input type="text" name="userName"  class="block  rounded-md py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-teal-500 peer" placeholder=" " required />
