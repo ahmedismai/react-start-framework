@@ -14,7 +14,7 @@ import 'flowbite-react'
 
 
 let x = createBrowserRouter([
-  {path: "" , element: <Layout/>, children:[
+  {path: "react-start-framework" , element: <Layout/>, children:[
     {index: true , element: <Home/>},
     {path: "about" , element: <About/>},
     {path: "portfolio" , element: <Portfolio/>},
