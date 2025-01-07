@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.padding {
+  padding: 5px 10px !important;
+}
+.active {
+  background-color: aquamarine;
+}
+@media (max-width: 767px) {
+  .active {
+    background-color: aquamarine;
+    width: fit-content;
+    margin: 5px;
+  }
+}
