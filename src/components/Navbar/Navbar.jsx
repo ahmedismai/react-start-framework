@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Navbar } from 'flowbite-react';
 import style from './Navbar.module.css';
-import About from './../About/About';
+import About from '../About/About';
 
 
 
