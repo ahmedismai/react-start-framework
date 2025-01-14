@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=./index.html" />
+    <meta http-equiv="refresh" content="0; URL='/'" />
+    <script type="text/javascript">
+      var pathname = window.location.pathname;
+      if (pathname.startsWith("/react-start-framework")) {
+        window.location.replace("/react-start-framework" + pathname);
+      } else {
+        window.location.replace("/");
+      }
+    </script>
   </head>
   <body></body>
 </html>
