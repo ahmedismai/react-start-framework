@@ -27,6 +27,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <Router basename="/react-start-framework">
+
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
