@@ -22,7 +22,7 @@ export default function Footer() {
     </div>
     <div className='text-white py-6 px-8'>
       <h3 className='font-bold text-3xl'>ABOUT FREELANCER</h3>
-      <span className='block'>Freelance is a free to use, licensed Bootstrap theme created by Route</span>
+      <span className='block'>Freelance is a free to use, licensed Teliwnedcss theme created by Route</span>
     </div>
   </div>
 </section>
